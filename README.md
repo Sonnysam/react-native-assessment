@@ -131,7 +131,7 @@ export const Colors = {
 ## 🔗 Links
 
 - **Hosted Demo**: [Live Preview](https://expo.dev/@yourusername/qr-hunter)
-- **Skype**: [your.skype.id](skype:your.skype.id)
+- **Skype**: [your.skype.id](skype:https://join.skype.com/invite/ItGnpAiaD6Kz)
 
 ## 📝 Notes for Reviewers
 
@@ -148,8 +148,8 @@ This project showcases:
 
 For any questions about this assessment, please reach out via:
 
-- Skype: [your.skype.id](skype:your.skype.id)
-- Email: [your.email@example.com](mailto:your.email@example.com)
+- Skype: [your.skype.id](skype:https://join.skype.com/invite/ItGnpAiaD6Kz)
+- Email: [your.email@example.com](mailto:samuelagbenyo067@gmail.com)
 
 ## 📄 License
 
