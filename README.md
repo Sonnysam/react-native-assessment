@@ -131,25 +131,14 @@ export const Colors = {
 ## 🔗 Links
 
 - **Hosted Demo**: [Live Preview](https://expo.dev/@yourusername/qr-hunter)
-- **Skype**: [your.skype.id](skype:https://join.skype.com/invite/ItGnpAiaD6Kz)
-
-## 📝 Notes for Reviewers
-
-This project showcases:
-
-- Clean, maintainable code architecture
-- Reusable component patterns
-- Type-safe implementation
-- Modern React Native best practices
-- Attention to UI/UX details
-- Proper form handling and validation
+- **Skype**: [https://join.skype.com/invite/ItGnpAiaD6Kz](https://join.skype.com/invite/ItGnpAiaD6Kz)
+- **Email**: [samuelagbenyo067@gmail.com](mailto:samuelagbenyo067@gmail.com)
 
 ## 👤 Contact
 
 For any questions about this assessment, please reach out via:
 
 - Skype: [your.skype.id](skype:https://join.skype.com/invite/ItGnpAiaD6Kz)
-- Email: [your.email@example.com](mailto:samuelagbenyo067@gmail.com)
 
 ## 📄 License
 
