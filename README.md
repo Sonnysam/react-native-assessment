@@ -1,0 +1,156 @@
+# QR Hunter Authentication System
+
+A modern authentication system built with React Native and Expo Router, featuring a complete user journey from login to password reset.
+
+## 🎯 Assessment Overview
+
+This project is an interview assessment demonstrating a fully functional authentication flow with modern UI/UX practices in a QR-based scavenger hunt game application.
+
+## 🎥 Demo Videos
+
+- 📱 Mobile Demo: [Watch here](https://drive.google.com/your-mobile-demo)
+- 🖥️ Web Demo: [Watch here](https://drive.google.com/your-web-demo)
+
+## 🚀 Features
+
+- Modern UI/UX design
+- Complete authentication flow
+- Custom form components
+- Responsive layouts
+- Type-safe development with TypeScript
+- Consistent styling system
+
+## 📱 Screens
+
+### Authentication Flow
+
+1. **Login Screen** (`/app/(auth)/login.tsx`)
+
+   - Email & password authentication
+   - Forgot password link
+   - Sign up navigation
+   - Form validation
+
+2. **Sign Up Screen** (`/app/(auth)/signup.tsx`)
+
+   - User type toggle (Organiser/Player)
+   - Dynamic form fields
+   - Full registration form for organisers
+   - Age verification
+   - Email validation
+
+3. **Forgot Password Flow**
+   - Request Screen (`/app/(auth)/forgot.tsx`)
+     - Email input
+     - Validation
+   - Verification Screen (`/app/(auth)/verify-code.tsx`)
+     - 6-digit code input
+     - Auto-focus navigation
+   - Reset Password (`/app/(auth)/reset-password.tsx`)
+     - New password input
+     - Password confirmation
+   - Success Screen (`/app/(auth)/success.tsx`)
+     - Confirmation message
+     - Return to login
+
+## 🛠️ Technology Stack
+
+- React Native
+- Expo SDK 52
+- TypeScript
+- Expo Router v4
+- Custom Components
+- React Native Safe Area Context
+
+## 🏃‍♂️ Getting Started
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies
+
+```bash
+yarn install
+```
+
+3. Start the development server
+
+```bash
+yarn start
+```
+
+## 📦 Project Structure
+
+```
+my-app/
+├── app/
+│   └── (auth)/
+│       ├── _layout.tsx
+│       ├── login.tsx
+│       ├── signup.tsx
+│       ├── forgot.tsx
+│       ├── verify-code.tsx
+│       ├── reset-password.tsx
+│       └── success.tsx
+├── components/
+│   ├── CustomButton.tsx
+│   ├── CustomTextInput.tsx
+│   └── MainContainer.tsx
+├── constants/
+│   └── Colors.ts
+└── assets/
+    ├── logo.png
+    └── success.png
+```
+
+## 🎨 Design System
+
+### Colors
+
+```typescript
+export const Colors = {
+  primary: '#000000',
+  background: '#425F77',
+  link: '#5EE4EF',
+  text: '#ffffff',
+  input: '#364F63',
+  border: '#23323F',
+  button: '#1E3F5B',
+};
+```
+
+### Components
+
+- **CustomButton**: Reusable button component with loading and disabled states
+- **CustomTextInput**: Form input component with icon support and password toggle
+- **MainContainer**: Layout wrapper with safe area and scroll handling
+
+## 🔗 Links
+
+- **Hosted Demo**: [Live Preview](https://expo.dev/@yourusername/qr-hunter)
+- **Skype**: [your.skype.id](skype:your.skype.id)
+
+## 📝 Notes for Reviewers
+
+This project showcases:
+
+- Clean, maintainable code architecture
+- Reusable component patterns
+- Type-safe implementation
+- Modern React Native best practices
+- Attention to UI/UX details
+- Proper form handling and validation
+
+## 👤 Contact
+
+For any questions about this assessment, please reach out via:
+
+- Skype: [your.skype.id](skype:your.skype.id)
+- Email: [your.email@example.com](mailto:your.email@example.com)
+
+## 📄 License
+
+This project is created for assessment purposes. All rights reserved.
