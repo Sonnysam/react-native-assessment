@@ -8,11 +8,12 @@ import CustomTextInput from '~/components/CustomTextInput'
 import CustomButton from '~/components/CustomButton'
 import { Colors } from '~/constants/Colors'
 
-export default function Forgot() {
-    const [email, setEmail] = useState('')
+export default function ResetPassword() {
+    const [newPassword, setNewPassword] = useState('')
+    const [confirmPassword, setConfirmPassword] = useState('')
 
-    const handleSendCode = () => {
-        router.push('/(auth)/verify-code')
+    const handleResetPassword = () => {
+        router.push('/(auth)/success')
     }
 
     return (
@@ -22,20 +23,27 @@ export default function Forgot() {
             </View>
 
             <View style={styles.form}>
-                <Text style={styles.title}>Forget Password</Text>
-                <Text style={styles.subtitle}>Please enter your email or phone number {'\n'}to get reset password.</Text>
+                <Text style={styles.title}>Reset Password</Text>
 
                 <CustomTextInput
-                    label="Email"
-                    placeholder="Enter Email"
-                    value={email}
-                    onChangeText={setEmail}
-                    keyboardType="email-address"
+                    label="New Password"
+                    placeholder="********"
+                    value={newPassword}
+                    onChangeText={setNewPassword}
+                    isPassword
+                />
+
+                <CustomTextInput
+                    label="Confirm New Password"
+                    placeholder="********"
+                    value={confirmPassword}
+                    onChangeText={setConfirmPassword}
+                    isPassword
                 />
 
                 <CustomButton
-                    title="SEND CODE"
-                    onPress={handleSendCode}
+                    title="RESET PASSWORD"
+                    onPress={handleResetPassword}
                 />
             </View>
         </MainContainer>
@@ -59,11 +67,5 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: Colors.text,
         marginBottom: 14,
-    },
-    subtitle: {
-        fontSize: 18,
-        color: Colors.text,
-        marginBottom: 14,
-        opacity: 0.8,
     },
 })
