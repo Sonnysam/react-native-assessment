@@ -5,6 +5,7 @@ type ColorsProps = {
   text: string;
   input: string;
   border: string;
+  button: string;
 };
 
 export const Colors: ColorsProps = {
@@ -14,4 +15,5 @@ export const Colors: ColorsProps = {
   text: '#ffffff',
   input: '#364F63',
   border: '#23323F',
+  button: '#1E3F5B',
 };

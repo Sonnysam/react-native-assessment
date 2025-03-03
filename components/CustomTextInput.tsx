@@ -63,14 +63,14 @@ const CustomTextInput: React.FC<TextInputProps> = ({
             <Ionicons
               name={isPassword ? 'lock-closed-outline' : 'mail-outline'}
               size={20}
-              color={Colors.secondary}
+              color={Colors.input}
             />
           </View>
         )}
         <TextInput
           style={[styles.input, showIcon && styles.inputWithIcon, inputStyle]}
           placeholder={placeholder}
-          placeholderTextColor={Colors.secondary}
+          placeholderTextColor={Colors.text}
           value={value}
           onChangeText={onChangeText}
           secureTextEntry={isPassword ? !showPassword : secureTextEntry}
@@ -81,7 +81,7 @@ const CustomTextInput: React.FC<TextInputProps> = ({
         />
         {isPassword && (
           <TouchableOpacity onPress={togglePasswordVisibility} style={styles.passwordToggle}>
-            <Ionicons name={showPassword ? 'eye-off' : 'eye'} size={20} color={Colors.secondary} />
+            <Ionicons name={showPassword ? 'eye-off' : 'eye'} size={20} color={Colors.text} />
           </TouchableOpacity>
         )}
       </View>
@@ -97,21 +97,22 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginBottom: 8,
     fontWeight: '500',
+    color: Colors.text,
   },
   inputContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderWidth: 1,
-    borderColor: Colors.grey,
-    borderRadius: 5,
-    backgroundColor: Colors.grey + '10',
+    borderWidth: 2,
+    borderColor: Colors.border,
+    borderRadius: 10,
+    backgroundColor: Colors.input,
     opacity: 0.5,
-    height: 50,
+    height: 45,
   },
   input: {
     flex: 1,
     paddingHorizontal: 10,
-    fontSize: 16,
+    fontSize: 13,
   },
   inputWithIcon: {
     paddingLeft: 5,

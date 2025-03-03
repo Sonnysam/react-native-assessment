@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.background,
-    paddingHorizontal: 10,
+    paddingHorizontal: 16,
     paddingTop: Platform.OS === 'android' ? 10 : 0,
   },
   scrollContent: {
