@@ -8,8 +8,7 @@ This project is an interview assessment demonstrating a fully functional authent
 
 ## 🎥 Demo Videos
 
-- 📱 Mobile Demo: [Watch here](https://drive.google.com/your-mobile-demo)
-- 🖥️ Web Demo: [Watch here](https://drive.google.com/your-web-demo)
+- 🖥️ Web Demo: [Watch here](https://sam0-my-app--p0on2wgoow.expo.app/)
 
 ## 🚀 Features
 
@@ -138,7 +137,7 @@ export const Colors = {
 
 For any questions about this assessment, please reach out via:
 
-- Skype: [your.skype.id](skype:https://join.skype.com/invite/ItGnpAiaD6Kz)
+- WhatsApp number: +233594602088
 
 ## 📄 License
 
