@@ -8,7 +8,15 @@ This project is an interview assessment demonstrating a fully functional authent
 
 ## 🎥 Demo Videos
 
-- 🖥️ Web Demo: [Watch here](https://sam0-my-app--p0on2wgoow.expo.app/)
+- 🖥️ Hosted Web Demo: [Watch here](https://sam0-my-app--p0on2wgoow.expo.app/)
+
+- Mobile screen recording
+https://github.com/user-attachments/assets/9eb6eec8-390d-460c-8968-b545355c294d
+
+-Web screen recording
+https://github.com/user-attachments/assets/44fff61b-3797-4fc8-b9ec-69ae2c11383a
+
+
 
 ## 🚀 Features
 
