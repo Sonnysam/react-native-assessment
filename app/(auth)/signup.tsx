@@ -154,12 +154,13 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: Colors.input,
         borderWidth: 1,
+        // borderColor: Colors.link,
     },
     buttonText: {
-        color: Colors.text,
+        color: Colors.text
     },
     activeButtonText: {
-        color: Colors.link,
+        color: Colors.text,
     },
     loginContainer: {
         flexDirection: 'row',

@@ -23,12 +23,16 @@ export default function Success() {
                         />
                     </View>
                     <Text style={styles.title}>Password has been{'\n'}set successfully</Text>
+
+                    <View style={styles.buttonContainer}>
+                        <CustomButton
+                            title="CONTINUE"
+                            onPress={handleContinue}
+                        />
+                    </View>
                 </View>
 
-                <CustomButton
-                    title="CONTINUE"
-                    onPress={handleContinue}
-                />
+
             </View>
         </MainContainer>
     )
@@ -65,4 +69,9 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         lineHeight: 32,
     },
+    buttonContainer: {
+        marginTop: 20,
+        width: '100%',
+        paddingHorizontal: 20,
+    }
 })

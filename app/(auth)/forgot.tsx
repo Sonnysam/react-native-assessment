@@ -23,7 +23,7 @@ export default function Forgot() {
 
             <View style={styles.form}>
                 <Text style={styles.title}>Forget Password</Text>
-                <Text style={styles.subtitle}>Please enter your email or phone number {'\n'}to get reset password.</Text>
+                <Text style={styles.subtitle}>Please enter your email or phone {'\n'}number to get reset password.</Text>
 
                 <CustomTextInput
                     label="Email"

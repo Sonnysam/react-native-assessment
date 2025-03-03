@@ -92,8 +92,9 @@ const styles = StyleSheet.create({
     codeInput: {
         width: 45,
         height: 45,
-        borderWidth: 1,
-        borderColor: Colors.border,
+        borderWidth: 2,
+        // borderColor: Colors.border,
+        borderColor: "#000" + 10,
         borderRadius: 8,
         textAlign: 'center',
         fontSize: 20,

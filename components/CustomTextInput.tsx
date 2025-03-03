@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState } from 'react';
 import {
   View,
@@ -103,7 +104,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     borderWidth: 2,
-    borderColor: Colors.border,
+    // borderColor: Colors.border,
+    borderColor: "#000" + 10,
     borderRadius: 10,
     backgroundColor: Colors.input,
     opacity: 0.5,
